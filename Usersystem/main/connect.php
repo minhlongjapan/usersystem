@@ -1,3 +1,4 @@
+<!-- データベースに接続 -->
 <?php
   $pdo = new PDO(
     'mysql:host=localhost; dbname=minhlong; charset=utf8mb4', 
