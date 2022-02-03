@@ -1,0 +1,45 @@
+div {
+  color: blue;
+  font-size: 30px;
+  text-align: center;
+}
+.styles {
+  color:rgb(20, 220, 37);
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-top:10px; 
+  width:450px;
+  height: 400px;
+  background-color:lightslategray;
+}
+.login_styles {
+  color:rgb(20, 220, 37);
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-top:10px; 
+  width:450px;
+  height: 400px;
+  background-color:lightslategray;
+}
+
+.info {
+  color: rgb(24, 14, 46);
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-color:lightslategray;
+  width:350px;
+  height: 10px;
+}
+.edit_info {
+  color: rgb(24, 14, 46);
+  text-align: center;
+  font-size: 12px;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-color:lightslategray;
+  width:350px;
+  height: 10px;
+}
