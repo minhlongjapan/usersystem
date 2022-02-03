@@ -2,12 +2,13 @@
 
 
 <?php
-  include_once('../session.php');
-  checktime();
+  include_once('../session.php');　//Session　チェック
+  checktime(); //Session　チェック
 
-  include('../connect.php');
-  $msg = '';  
+  include('../connect.php'); //データベースに接続
+  $msg = '';  //接続時のメッセージ
   
+    //メールとパスワード入力するか判断
   if(filter_input(INPUT_POST, 'newacount')){
     if(($_POST['email'] == '') || ($_POST['pass'] == '')){
       $msg = 'メールとパスワードを入力してください！';
