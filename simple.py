@@ -23,6 +23,7 @@ import datetime
 # ディスプレイ上
 # tkinter での画面の構成
 from tkinter import *
+from xml.etree.ElementTree import Comment
  
 window = Tk()
 window.geometry('550x400')
@@ -33,3 +34,6 @@ lbt1 = Label(window, text='Hello')
 lbt.grid(column=0, row=0)
 lbt1.grid(column=0, row=1)
 window.mainloop()
+
+
+# this is Comment
